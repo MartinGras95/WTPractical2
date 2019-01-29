@@ -14,8 +14,19 @@ h2{
   font-size: 32px;
 }
 
+/* Navigation Bar */
 #CountrySelect{
-  padding-bottom: 25px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#middleLink{
+  padding-left: 25px;
+  padding-right:25px;
+
 }
 
 .countryContainer{
@@ -24,6 +35,7 @@ h2{
   padding-bottom: 50px;
 }
 
-.flag{
-
+.flag:hover{
+  transform: scale(1.1);
+  transition: 0.3s linear;
 }
