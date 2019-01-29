@@ -2,31 +2,70 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Countries</title>
   </head>
   <body>
-    <h1>Some Countries</h1>
+    <h1>Country Flags</h1>
+
 
     <!-- Navigation Bar -->
 
-    <nav>
+
+    <nav id="CountrySelect">
       <a href="#UK">United Kingdom</a>
       <a href="#ESP">Spain</a>
       <a href="#GER">Germany</a>
     </nav>
 
+
     <!-- Countries Section  -->
+    <div class="Countries">
 
-    <h2>Europe</h2>
+      <!-- United Kingdom -->
 
-    <h3 id="UK">United Kingdom</h3>
-    <img height="250" width="300" src="ukflag.png" alt="Flag of United Kingdom">
+      <div class="countryContainer">
 
-    <h3 id="ESP">Spain</h3>
-    <img height="250" width="300" src="spainflag.png" alt="Flag of Spain">
+        <h2 id="UK">United Kingdom</h2>
+        <img class="flag" height="250" width="400" src="ukflag.png" alt="Flag of United Kingdom">
 
-    <h3 id="GER">Germany</h3>
-    <img height="250" width="300" src="germanyflag.png" alt="Flag of Germany">
+        <p class="countryDesc">The United Kingdom, made up of England, Scotland, Wales and Northern Ireland,
+          is an island nation in northwestern Europe.
+          England – birthplace of Shakespeare and The Beatles – is home to the capital, London,
+          a globally influential centre of finance and culture. England is also site of Neolithic Stonehenge,
+          Bath’s Roman spa and centuries-old universities at Oxford and Cambridge.</p>
+      </div>
+
+      <!-- Spain -->
+
+      <div class="countryContainer">
+
+        <h2 id="ESP">Spain</h2>
+        <img class="flag" height="250" width="400" src="spainflag.png" alt="Flag of Spain">
+
+        <p class="countryDesc">Spain, a country on Europe’s Iberian Peninsula,
+          includes 17 autonomous regions with diverse geography and cultures.
+          Capital city Madrid is home to the Royal Palace and Prado museum, housing works by European masters.
+          Segovia has a medieval castle (the Alcázar) and an intact Roman aqueduct.
+          Catalonia’s capital, Barcelona, is defined by Antoni Gaudí’s whimsical modernist landmarks like the Sagrada Família church.</p>
+
+      </div>
+
+
+      <div class="countryContainer">
+        <h2 id="GE  R">Germany</h2>
+        <img class="flag" height="250" width="400" src="germanyflag.png" alt="Flag of Germany">
+
+        <p class="countryDesc">Germany is a Western European country with a landscape of forests, rivers,
+        mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital,
+        is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, 
+          including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank.</p>
+      </div>
+
+
+    </div>
+
+
 
 
   </body>
