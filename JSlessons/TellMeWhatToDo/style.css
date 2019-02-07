@@ -1,0 +1,47 @@
+/* Main Styles */
+body{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+.content
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+/* Button Styles */
+
+.request
+{
+  display: flex;
+  justify-content: center;
+  border: solid black;
+  border-radius: 25px;
+  padding: 0px 10px 0px 10px;
+}
+
+.request:hover{
+  background-color: lightgrey;
+}
+
+#command{
+  font-size: 32px;
+  padding-bottom: 25px;
+}
