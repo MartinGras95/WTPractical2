@@ -1,6 +1,11 @@
 body{
   background-color: black;
   color: white;
+  font-size: 32px;
+}
+
+p{
+  font-size: 32px;
 }
 
 #mainTitle{
@@ -14,11 +19,30 @@ body{
   text-align: center;
 }
 
-#enterButton:hover{
+a:hover{
   color: red;
 }
 
 a{
   text-decoration: inherit;
   color: inherit;
+}
+
+.roomDesc{
+  text-align: center;
+}
+
+
+.choices{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  text-align: center;
+  border: solid red;
+}
+
+#commandKill{
+  visibility: collapse;
 }
