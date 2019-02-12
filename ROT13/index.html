@@ -1,37 +1,31 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+ <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="rot13.css">
-    <title>ROT13 Encoder</title>
-  </head>
-  <body>
-    <h1>A ROT13 Encoder</h1>
-    <p>About ROT13</p>
+ <link rel ="stylesheet" type ="text/css" href ="rot13.css">
+ <title > ROT13 Encoder </title >
+ </head >
+ <body >
+ <h1 >A ROT13 Encoder </h1>
+ <p> About ROT13 ... </p>
 
-    <!-- Input -->
+ <div id ="input_area">
+ <textarea rows ="1" cols ="50" autofocus id ="message"> Type your sooper
+sekret message here </textarea >
+ <button type ="button" onclick ="encode()" id ="encode_button"> Encodify
+Everything </button>
+ </div>
 
-    <div class="inputArea">
-      <!-- Text field -->
-      <textarea name="input" rows="1" cols="50" autofocus id="message">Type your message here.</textarea>
+ <div id ="output_area">
 
-      <!-- Button -->
-      <!-- extract the html tag's content as an argument in the javascript function -->
-      <button type ="button" onclick ="encode(document.getElementById('message').textContent);" id ="encode_button">Encodify Everything </button >
+   <p>This is your encoded message :
 
-    </div>
+   </p>
 
-    <!-- Output -->
-
-    <div class="outputArea">
-      <p>This is your encoded message</p>
-      <div class="output">
-
-      </div>
-    </div>
+ <div id ="output" ></div>
 
 
-    <!-- Scripts -->
-    <script src="rot13.js" charset="utf-8"></script>
-  </body>
-</html>
+
+ </div>
+ <script type ="text/javascript" src ="rot13.js" ></script>
+
+ </body>
+ </htmL>
